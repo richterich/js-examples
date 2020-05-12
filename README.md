@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/github/license/Rihtarich/js-examples.svg?style=popout)](LICENSE.md)
 
-A simple set of programs written in JavaScript
+A set of simple programs written in JavaScript
 
 ## Getting Started
 
