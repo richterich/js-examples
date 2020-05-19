@@ -6,7 +6,7 @@ process.stdin.on("readable", () => {
   while (null !== (chunk = process.stdin.read())) {
     let iterator = chunk[Symbol.iterator]();
     let symbol = iterator.next();
-    while (!symbol.done && symbol.value !== 10) {
+    while (!symbol.done && 10 !== symbol.value && 13 !== symbol.value) {
       console.log(String.fromCharCode(symbol.value));
       symbol = iterator.next();
     }
