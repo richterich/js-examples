@@ -1,6 +1,6 @@
 /**
- * prints amount of different characters in input
- */
+  * prints amount of different characters in input
+  */
 process.stdin.on("readable", () => {
   let chunk;
   while (null !== (chunk = process.stdin.read())) {

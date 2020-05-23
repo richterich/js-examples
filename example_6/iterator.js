@@ -1,6 +1,6 @@
 /**
- * prints one letter per line
- */
+  * prints one letter per line
+  */
 process.stdin.on("readable", () => {
   let chunk;
   while (null !== (chunk = process.stdin.read())) {
